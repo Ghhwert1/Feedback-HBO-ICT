@@ -39,3 +39,5 @@ while True:
         for rows in data:
             print(rows[0])
         input("Enter om verder te gaan... ")
+    else: gebr_input == "x" or "X":
+        print("Verkeerde input.")
