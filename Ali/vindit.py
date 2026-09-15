@@ -25,6 +25,9 @@ while True:
 +----------------------------------------------+
 """)
     gebr_input = input("Kies wat je wilt doen: ")
+    """ Jamie - Ik zie hier dat je 'print("+------------------------------------------+")' aan het eind van elke if else statement zet. 
+        Dat kost extra moeite en voegt onnodig veel lijnen code toe aan je code. Dat maakt het minder overzichtelijk.
+        Om dit te voorkomen kan je deze statement in je while loop stoppen, zo hoef je niet elke keer dezelfde statement te herhalen."""
     if gebr_input == "1":
         cursor.execute("SELECT * FROM Verkoop")
         data = cursor.fetchall()
